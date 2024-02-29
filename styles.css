@@ -56,7 +56,7 @@ section {
 .navbar a {
   font-size: 1.7rem;
   color: var(--text-color);
-  margin-left: 4rem;
+  margin-left: 2rem;
   transition: 0.3s;
 }
 
@@ -73,7 +73,6 @@ section {
 .home {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .home-img img {
@@ -133,13 +132,14 @@ section {
 .about {
   display: flex;
   justify-content: center;
-  align-items: center;
+
   gap: 2rem;
   background: var(--secondary-bg-color);
 }
 
 .about-img img {
-  width: 35vw;
+  width: 40vw;
+  padding-top: 20%;
 }
 
 .heading {
@@ -180,6 +180,12 @@ section {
   border-radius: 2rem;
   text-align: center;
   border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
+}
+
+.services-container .service-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
 }
 
 .service-box i {
@@ -193,4 +199,35 @@ section {
 
 .service-box p {
   font-size: 1.6rem;
+}
+
+.products h2 {
+  margin-bottom: 2rem;
+}
+
+.testimonial {
+  background: var(--secondary-bg-color);
+}
+
+.testimonial h2 {
+  margin-bottom: 4rem;
+}
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.testimonials-container .testimonial-box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem var(--bg-color);
+  overflow: hidden;
+  display: flex;
+}
+
+.testimonial-box img {
+  width: 100%;
 }

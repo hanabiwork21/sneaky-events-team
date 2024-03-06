@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaky Events Team</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="anim.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-32x32.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- Header Design start -->
+    <header class="header">
+        <a href="#home" class="logo">Sneaky Events Team</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+          <a href="#about">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#products">Products</a>
+          <a href="#testomonials">Testimonials</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contactUs">Contact Us</a>
+        </nav>
+      </header>
+      <!-- Header Design end -->
+  
+      <!-- Home Section start -->
+      <section class="home" id="home">
+        <div class="home-content">
+          <h1>SNEAKY EVENTS TEAM</h1>
+          <h3>GAME STREAMING AND ADVERTISING SERVICES</h3>
+          <p>
+            Our Portfolio boasts over seven successful local and national
+            tournaments within various communities, amassing more than 28,000
+            followers and 27,000 likes on our official Facebook page.
+          </p>
+          <div class="social-media">
+            <a href="https://web.facebook.com/SneakyEventsTeam" target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.youtube.com/@sneakyeventsteam-setonline7681" target="_blank"><i class="bx bxl-youtube"></i></a>
+            <a href="https://discord.gg/dmUYZMrkqY" target="_blank"><i class='bx bxl-discord-alt'></i></a>
+          </div>
+        </div>
+  
+        <!-- IMAGE LOGO -->
+        <div class="home-img">
+          <img src="img/SETLOGOSILVER.png" alt="" />
+        </div>
+      </section>
+      <!-- Home Section end -->
+
+      <!-- About Section start -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/SETWHITE.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">ABOUT US</h2>
+        <p>
+          Your partner in crafting extraordinary experience. Specializing in
+          game streaming and advertising services, Sneaky Events has been a
+          pioneering force in brand advertising since February 2021.
+          We offer a comprehensive range of advertising services, underpinned by a proven track record. Our achievements are propelled by a highly skilled and expierenced team of marketers, bolstered by robust partner alliances.
+        </p>
+        <a href="#contactUs" class="btn">Contact</a>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Service Section start -->
+    <section class="services" id="services">
+      <h2 class="heading">OUR SERVICES</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <i class="bx bx-calendar-event"></i>
+          <h3>EVENT MODERATOR</h3>
+          <button onclick="showPopup(1)">Read more</button>
+        </div>
+        <div class="service-box">
+          <i class="bx bxl-creative-commons"></i>
+          <h3>CREATIVE CAMPAIGN</h3>
+          <button onclick="showPopup(2)">Read more</button>
+        </div>
+        <div class="service-box">
+          <i class="bx bx-line-chart"></i>
+          <h3>MARKET SERVICE</h3>
+          <button onclick="showPopup(3)">Read more</button>
+        </div>
+        
+        <!-- Popup Section -->
+        <!--Pop up Info -->
+        <div class="popup-container" id="popupContainer1">
+          <div class="popup-content">
+              <span class="close-button" onclick="hidePopup(1)">&times;</span>
+              <h3>EVENT MODERATOR</h3>
+              <p><b>Gaming Tournament Organizer: </b>Level up your gaming events with our expertise and make them truly epic.</p>
+              <p><b>On-site Event management: </b>(Booth Design/Stage Design, Event Styling, Sound System, Internet connection, Projector/tv screen/LCD. Wire/Charging connection, extension, Event Place, Table and Chairs, Sound system, Concert convention, Guerilla marketing).</p>
+              <p><b>Production and Events Organizing: </b>From concept to execute, we create memorable and flawless productions and events.</p>
+              <p><b>1. Event Hosting and Coordination </b>(Host, Content Procedures, Show and Floor Director).</p>
+              <p><b>2. Technical and Production </b>(Shout caster, Technical Support, Technical Design, Technical Fabrication, broad casting director Photo and Video production).</p>
+              <p><b>3. Event Operations </b>(Admin, Security, Floor Crew, Tournament Marshals and Medics).</p>
+              <p>Operation Team: Let us be the backbone of your operations and ensure smooth execution every step of the way.</p>
+          </div>
+      </div>
+      <!--Pop up Info ^^-->
+      <!--Pop up Info -->
+        <div class="popup-container" id="popupContainer2">
+          <div class="popup-content">
+              <span class="close-button" onclick="hidePopup(2)">&times;</span>
+              <h3>CREATIVE CAMPAIGN</h3>
+              <p><b>GRAPHICS DESIGN:</b></p>
+              <p>A lasting impression with visually stunning designs that represent your brand's uniqueness.</p>
+              <p>(Posters and banners, OHH, Logos, Tournaments, Merch and Fliers).</p>
+              <br>
+              <p><b>WEB DESIGNING:</b></p>
+              <p>Stand out in the online world with beautifully designed websites that drive results. (UI/UX Design, High Resolution and 3D Layout).</p>
+          </div>
+      </div>
+      <!--Pop up Info ^^-->
+      <!--Pop up Info -->
+        <div class="popup-container" id="popupContainer3">
+          <div class="popup-content">
+              <span class="close-button" onclick="hidePopup(3)">&times;</span>
+              <h3>MARKET SERVICE</h3>
+              <p><b>Digital Marketing:</b></p>
+              <p>Dominate the digital landscape and reach your target audience with our proven strategies. (Facebook Adversiting, Content Creation, Scriptwriting and Copywriting).</p>
+              <br>
+              <p><b>Marketing and promotions:</b></p>
+              <p>Boost your brand's visibility and drive growth with our strategic marketing and promotions expertise. Forge lucrative partnerships and maximize sponsorships with our professional management services.</p>
+          </div>
+      </div>
+      <!--Pop up Info ^^-->
+    </section>
+    <!-- Service Section end -->
+
+    <!-- Product Section start -->
+    <section class="products" id="products">
+      <div class="pro_container">
+        <h2 class="heading">PRODUCTS</h2>
+        <!--Menu filter-->
+        <div class="items-links">
+          <span class="item-link menu-active" data-name="all">All</span>
+          <span class="item-link" data-name="design">Sponsor</span>
+          <span class="item-link" data-name="manage">Manage</span>
+          <span class="item-link" data-name="logo">Logo</span>
+        </div>
+
+        <!--Filter images-->
+        <div class="gallery">
+          <div class="product-img" data-name="design">
+            <img src="img/design1.jpg" alt="" />
+          </div>
+          <div class="product-img" data-name="design">
+            <img src="img/design2.jpg" alt="" />
+          </div>
+          <div class="product-img" data-name="design">
+            <img src="img/design3.png" alt="" />
+          </div>
+          <div class="product-img" data-name="manage">
+            <img src="img/manage1.png" alt="" />
+          </div>
+          <div class="product-img" data-name="manage">
+            <img src="img/manage2.jpg" alt="" />
+          </div>
+          <div class="product-img" data-name="manage">
+            <img src="img/manage3.jpg" alt="" />
+          </div>
+          <div class="product-img" data-name="logo">
+            <img src="img/logo1.jpg" alt="" />
+          </div>
+          <div class="product-img" data-name="logo">
+            <img src="img/logo2.jpg" alt="" />
+          </div>
+          <div class="product-img" data-name="logo">
+            <img src="img/logo3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section end -->
+</body>
+<script src="script.js"></script>
+</html>
